@@ -5,7 +5,7 @@ import { useState } from "react";
 const speakersData = [
   {
     name: "Jean François Tremblay",
-    day: "Both Days",
+    day: "",
     role: "Original Pioneer of Peptide Science",
     topic: "Peptide Science & Real Clinical Protocols",
     color: "#00D4B8",
@@ -14,7 +14,7 @@ const speakersData = [
   },
   {
     name: "Dr. Syed Hasnain Haider Shah",
-    day: "Both Days",
+    day: "",
     role: "Clinical & Regenerative Anchor",
     topic: "Regenerative Medicine & Clinical Protocols",
     color: "#1A7A8A",
@@ -23,7 +23,7 @@ const speakersData = [
   },
   {
     name: "Dr. Adeel Khan",
-    day: "Day 2",
+    day: "",
     role: "Regenerative Expert",
     topic: "MUSE Cells & Stem Cell Science",
     color: "#22D3EE",
@@ -32,7 +32,7 @@ const speakersData = [
   },
   {
     name: "Sabine Hazan, MD",
-    day: "Day 1",
+    day: "",
     role: "Gut Expert",
     topic: "Gut Microbiome & Peptide Foundations",
     color: "#3D8EFF",
@@ -41,7 +41,7 @@ const speakersData = [
   },
   {
     name: "Lucas Aoun",
-    day: "Day 1",
+    day: "",
     role: "Supplement Expert",
     topic: "Supplements, Stacks & Synergy",
     color: "#8B5CF6",
@@ -50,7 +50,7 @@ const speakersData = [
   },
   {
     name: "Nathalie Niddam",
-    day: "Day 2",
+    day: "",
     role: "Bioregulator Expert",
     topic: "Oral Bioregulators & Longevity Science",
     color: "#A78BFA",
@@ -59,7 +59,7 @@ const speakersData = [
   },
   {
     name: "Shirley A. D'Souza",
-    day: "Both Days",
+    day: "",
     role: "Host, Moderator & Nutrition Expert",
     topic: "Nutrition, Peptide Synergy & Summit Curation",
     color: "#C9A84C",
@@ -167,7 +167,74 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      <section className="section speakers" id="speakers">
+        <div className="section-inner">
+          <div className="section-eyebrow">Presenting Experts</div>
+          <div className="section-rule"></div>
+          <div className="speakers-grid">
+            {speakersData.map((speaker, index) => (
+              <div className="speaker-card" key={index}>
+                <div
+                  className="speaker-accent"
+                  style={{ background: speaker.color }}
+                ></div>
+                <div className="speaker-photo-wrap">
+                  {speaker.instagram ? (
+                    <a href={speaker.instagram} target="_blank" rel="noopener noreferrer" style={{ display: 'block', width: '100%', height: '100%' }}>
+                      <div className="speaker-photo">
+                        {speaker.image ? (
+                          <img src={speaker.image} alt={speaker.name} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'inherit' }} />
+                        ) : (
+                          "PHOTO"
+                        )}
+                      </div>
+                    </a>
+                  ) : (
+                    <div className="speaker-photo">
+                      {speaker.image ? (
+                        <img src={speaker.image} alt={speaker.name} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'inherit' }} />
+                      ) : (
+                        "PHOTO"
+                      )}
+                    </div>
+                  )}
+                </div>
+                <div className="speaker-body">
+                  <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '8px', marginBottom: '10px' }}>
+                    {/* <div className="speaker-day" style={{ color: speaker.color, marginBottom: 0 }}>
+                      {speaker.day}
+                    </div> */}
+                    {speaker.instagram && (
+                      <a href={speaker.instagram} target="_blank" rel="noopener noreferrer" style={{ color: speaker.color, display: 'flex', alignItems: 'center', opacity: 0.8 }}>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                      </a>
+                    )}
+                  </div>
+                  <div className="speaker-name">
+                    {speaker.instagram ? (
+                      <a href={speaker.instagram} target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>
+                        {speaker.name}
+                      </a>
+                    ) : (
+                      speaker.name
+                    )}
+                  </div>
+                  <div className="speaker-role" style={{ color: speaker.color }}>
+                    {speaker.role}
+                  </div>
+                  <div className="speaker-topic">
+                    {speaker.topic}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
       <section className="section about" id="about">
         <div className="section-inner">
           <div className="about-inner">
@@ -343,63 +410,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section speakers" id="speakers">
-        <div className="section-inner">
-          <div className="section-eyebrow">Presenting Experts</div>
-          <div className="section-rule"></div>
-          <div className="speakers-grid">
-            {speakersData.map((speaker, index) => (
-              <div className="speaker-card" key={index}>
-                <div
-                  className="speaker-accent"
-                  style={{ background: speaker.color }}
-                ></div>
-                <div className="speaker-photo-wrap">
-                  {speaker.instagram ? (
-                    <a href={speaker.instagram} target="_blank" rel="noopener noreferrer" style={{ display: 'block', width: '100%', height: '100%' }}>
-                      <div className="speaker-photo">
-                        {speaker.image ? (
-                          <img src={speaker.image} alt={speaker.name} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'inherit' }} />
-                        ) : (
-                          "PHOTO"
-                        )}
-                      </div>
-                    </a>
-                  ) : (
-                    <div className="speaker-photo">
-                      {speaker.image ? (
-                        <img src={speaker.image} alt={speaker.name} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'inherit' }} />
-                      ) : (
-                        "PHOTO"
-                      )}
-                    </div>
-                  )}
-                </div>
-                <div className="speaker-body">
-                  <div className="speaker-day" style={{ color: speaker.color }}>
-                    {speaker.day}
-                  </div>
-                  <div className="speaker-name">
-                    {speaker.instagram ? (
-                      <a href={speaker.instagram} target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>
-                        {speaker.name}
-                      </a>
-                    ) : (
-                      speaker.name
-                    )}
-                  </div>
-                  <div className="speaker-role" style={{ color: speaker.color }}>
-                    {speaker.role}
-                  </div>
-                  <div className="speaker-topic">
-                    {speaker.topic}
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+
 
       <section className="section register" id="register">
         <div className="section-inner">
