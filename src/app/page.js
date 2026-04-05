@@ -1,7 +1,5 @@
 "use client";
 
-import { useState } from "react";
-
 const speakersData = [
   {
     name: "Jean François Tremblay",
@@ -69,8 +67,6 @@ const speakersData = [
 ];
 
 export default function Home() {
-  const [registered, setRegistered] = useState(false);
-
   return (
     <>
       <nav>
@@ -88,10 +84,10 @@ export default function Home() {
             <a href="#speakers">Speakers</a>
           </li>
           <li>
-            <a href="#register">Register</a>
+            <a href="https://api.leadconnectorhq.com/widget/form/vIxRp1MuWANGfjYl67GZ" target="_blank" rel="noopener noreferrer">Register</a>
           </li>
         </ul>
-        <a href="#register" className="nav-cta">
+        <a href="https://api.leadconnectorhq.com/widget/form/vIxRp1MuWANGfjYl67GZ" target="_blank" rel="noopener noreferrer" className="nav-cta">
           Register Free
         </a>
       </nav>
@@ -132,7 +128,7 @@ export default function Home() {
               </div>
             </div>
             <div className="hero-actions">
-              <a href="#register" className="hero-cta">
+              <a href="https://api.leadconnectorhq.com/widget/form/vIxRp1MuWANGfjYl67GZ" target="_blank" rel="noopener noreferrer" className="hero-cta">
                 Register Free
               </a>
               <span className="hero-zoom-pill">
@@ -449,19 +445,23 @@ export default function Home() {
               </div>
             </div>
             <div className="register-form">
-              <button
+              <a
+                href="https://api.leadconnectorhq.com/widget/form/vIxRp1MuWANGfjYl67GZ"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="form-submit"
-                onClick={() => setRegistered(true)}
-                disabled={registered}
                 style={{
-                  background: registered ? "#1A7A8A" : "",
+                  display: "inline-block",
+                  textAlign: "center",
                   padding: "24px 40px",
                   fontSize: "18px",
-                  marginTop: 0
+                  marginTop: 0,
+                  textDecoration: "none",
+                  boxSizing: "border-box"
                 }}
               >
-                {registered ? "You're Registered!" : "Register Now It's Free"}
-              </button>
+                Register Now It's Free
+              </a>
             </div>
           </div>
         </div>
