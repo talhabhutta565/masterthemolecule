@@ -126,7 +126,7 @@ export default function ProtocolRoom() {
           </li>
         </ul>
 
-        <a href="#" className="btn-primary">Join The Protocol Room — $48</a>
+        <a href="https://link.fastpaydirect.com/payment-link/69d2ad9dc6a0e600f4d07ad3" target="_blank" rel="noopener noreferrer" className="btn-primary">Join The Protocol Room — $48</a>
 
         <p className="price-note">
           Secure checkout · One-time payment · No subscription<br/>
@@ -353,7 +353,7 @@ export default function ProtocolRoom() {
       <span className="final-price-num">48</span>
     </div>
     <div className="final-price-desc">One-time payment · No subscription · Recordings included</div>
-    <a href="#" className="btn-large">Join The Protocol Room — $48</a>
+    <a href="https://link.fastpaydirect.com/payment-link/69d2ad9dc6a0e600f4d07ad3" target="_blank" rel="noopener noreferrer" className="btn-large">Join The Protocol Room — $48</a>
     <div className="seats-remaining">
       <span className="seats-dot"></span>
       Limited seats available · Offer closes 48 hours after registration
