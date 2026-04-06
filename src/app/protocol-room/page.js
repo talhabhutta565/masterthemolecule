@@ -127,7 +127,7 @@ export default function ProtocolRoom() {
               </ul>
 
               <a href="https://link.fastpaydirect.com/payment-link/69d2ad9dc6a0e600f4d07ad3" target="_blank" rel="noopener noreferrer" className="btn-primary">Join The Protocol Room $48 (One time)</a>
-              <a href="https://link.fastpaydirect.com/payment-link/69d2db38a6c96e61a845fd05" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ background: "transparent", border: "1px solid var(--burg)", color: "var(--burg)" }}>Get Rrcordings only for $28</a>
+              <a href="https://link.fastpaydirect.com/payment-link/69d2db38a6c96e61a845fd05" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ background: "transparent", border: "1px solid var(--burg)", color: "var(--burg)" }}>Recording for 2 days ($28)</a>
 
               <p className="price-note">
                 Secure checkout · One time payment · No subscription<br />
@@ -356,7 +356,7 @@ export default function ProtocolRoom() {
           <div className="final-price-desc">One time payment · No subscription · Recordings included</div>
           <div style={{ display: "flex", gap: "16px", justifyContent: "center", flexWrap: "wrap", marginBottom: "16px" }}>
             <a href="https://link.fastpaydirect.com/payment-link/69d2ad9dc6a0e600f4d07ad3" target="_blank" rel="noopener noreferrer" className="btn-large" style={{ marginBottom: 0 }}>Join The Protocol Room $48 (One time)</a>
-            <a href="https://link.fastpaydirect.com/payment-link/69d2db38a6c96e61a845fd05" target="_blank" rel="noopener noreferrer" className="btn-large" style={{ background: "transparent", border: "1px solid var(--burg)", color: "var(--burg)", marginBottom: 0 }}>Get Rrcordings only for $28</a>
+            <a href="https://link.fastpaydirect.com/payment-link/69d2db38a6c96e61a845fd05" target="_blank" rel="noopener noreferrer" className="btn-large" style={{ background: "transparent", border: "1px solid var(--burg)", color: "var(--burg)", marginBottom: 0 }}>Recording for 2 days ($28)</a>
           </div>
           <div className="seats-remaining">
             <span className="seats-dot"></span>
