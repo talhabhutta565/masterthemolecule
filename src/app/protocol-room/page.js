@@ -131,7 +131,7 @@ export default function ProtocolRoom() {
 
               <p className="price-note">
                 Secure checkout · One time payment · No subscription<br />
-                Recordings delivered within 24 hours of Day 2
+                Recordings delivered within 72 hours of Day 2
               </p>
 
             </div>
@@ -259,7 +259,7 @@ export default function ProtocolRoom() {
             <div className="include-card">
               <div className="include-num">03</div>
               <div className="include-title">All Recordings · 30 Days</div>
-              <div className="include-desc">Full recordings of both Protocol Room sessions plus all Master The Molecule main sessions. 30 day replay access delivered within 24 hours of Day 2 closing.</div>
+              <div className="include-desc">Full recordings of both Protocol Room sessions plus all Master The Molecule main sessions. 30 day replay access delivered within 72 hours of Day 2 closing.</div>
             </div>
           </div>
         </div>
@@ -317,7 +317,7 @@ export default function ProtocolRoom() {
 
             <div className="faq-item">
               <div className={`faq-q ${openFaq === 0 ? 'open' : ''}`} onClick={() => toggleFaq(3)}>When do I get the recordings?</div>
-              <div className={`faq-a ${openFaq === 0 ? 'open' : ''}`}>All recordings both Protocol Room sessions and both main summit days are delivered within 24 hours of Day 2 closing on 15 April. Your 30 day access period begins from that delivery date.</div>
+              <div className={`faq-a ${openFaq === 0 ? 'open' : ''}`}>All recordings both Protocol Room sessions and both main summit days are delivered within 72 hours of Day 2 closing on 15 April. Your 30 day access period begins from that delivery date.</div>
             </div>
 
             <div className="faq-item">
