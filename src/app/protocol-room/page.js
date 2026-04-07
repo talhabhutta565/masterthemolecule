@@ -177,7 +177,7 @@ export default function ProtocolRoom() {
                   <div className="session-time">After Day 1 · ~9:00 PM Dubai</div>
                 </div>
                 <div style={{ "fontSize": "10px", "color": "var(--pmuted)", "textAlign": "right", "letterSpacing": "0.1em" }}>
-                  Mon 14 APRIL<br />6:00 PM London*<br />1:00 PM NY*
+                  Tue 14 APRIL<br />6:00 PM London*<br />1:00 PM NY*
                 </div>
               </div>
               <div className="session-card-body">
@@ -372,12 +372,12 @@ export default function ProtocolRoom() {
           <ul className="footer-links">
             <li><a href="https://www.masterthemolecule.com">Main Event</a></li>
             <li><a href="#">Register Free</a></li>
-            <li><a href="#">@shirleybioreset</a></li>
+            <li><a href="https://www.instagram.com/shirleybioreset" target="_blank" rel="noopener noreferrer">@shirleybioreset</a></li>
           </ul>
         </div>
         <div className="footer-copy">
           <span>© Master The Molecule 2026. All rights reserved.</span>
-          <span style={{ "color": "var(--pmuted)" }}>#masterthemolecule · @shirleybioreset</span>
+          <span style={{ "color": "var(--pmuted)" }}>#masterthemolecule · <a href="https://www.instagram.com/shirleybioreset" target="_blank" rel="noopener noreferrer" style={{ color: "inherit", textDecoration: "none" }}>@shirleybioreset</a></span>
         </div>
       </footer>
 
