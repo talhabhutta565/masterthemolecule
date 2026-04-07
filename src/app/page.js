@@ -61,7 +61,7 @@ const speakersData = [
     role: "Host, Moderator & Nutrition Expert",
     topic: "Nutrition, Peptide Synergy & Summit Curation",
     color: "#C9A84C",
-    image: "/shirley.jpg",
+    image: "/shirley-new.png",
     instagram: "https://www.instagram.com/shirleybioreset/"
   }
 ];
