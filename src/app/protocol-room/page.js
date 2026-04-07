@@ -348,7 +348,7 @@ export default function ProtocolRoom() {
             <span style={{ "width": "30px", "height": "1px", "background": "var(--burg)", "display": "inline-block", "marginTop": "9px" }}></span>
           </div>
           <h2>Two hours.<br /><strong>Their full attention.</strong></h2>
-          <p>Two private sessions with Jean François Tremblay and Dr. Syed Hasnain Haider Shah. All recordings. 30 day access. Maximum 100 people.</p>
+          <p>Two private sessions with Jean François Tremblay and Dr. Syed Hasnain Haider Shah. All recordings. 30 day access. Maximum 50 people.</p>
           <div className="final-price">
             <span className="final-price-cur">$</span>
             <span className="final-price-num">48</span>
