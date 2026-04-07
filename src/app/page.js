@@ -179,7 +179,7 @@ export default function Home() {
                     <a href={speaker.instagram} target="_blank" rel="noopener noreferrer" style={{ display: 'block', width: '100%', height: '100%' }}>
                       <div className="speaker-photo">
                         {speaker.image ? (
-                          <img src={speaker.image} alt={speaker.name} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'inherit' }} />
+                          <img src={speaker.image} alt={speaker.name} />
                         ) : (
                           "PHOTO"
                         )}

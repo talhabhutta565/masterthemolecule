@@ -379,6 +379,13 @@ nav {
   display: flex; align-items:center; justify-content:center;
   font-size: 10px; letter-spacing:0.08em;
   color: var(--petrol-muted);
+  overflow: hidden;
+}
+.speaker-photo img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  object-position: top;
+  border-radius: inherit;
 }
 .speaker-body { padding: 16px 16px 24px; }
 .speaker-day {
