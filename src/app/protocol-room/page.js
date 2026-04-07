@@ -177,7 +177,7 @@ export default function ProtocolRoom() {
                   <div className="session-time">After Day 1 · ~9:00 PM Dubai</div>
                 </div>
                 <div style={{ "fontSize": "10px", "color": "var(--pmuted)", "textAlign": "right", "letterSpacing": "0.1em" }}>
-                  MON 14 APRIL<br />6:00 PM London*<br />1:00 PM NY*
+                  Mon 14 APRIL<br />6:00 PM London*<br />1:00 PM NY*
                 </div>
               </div>
               <div className="session-card-body">
@@ -209,7 +209,7 @@ export default function ProtocolRoom() {
                   <div className="session-time">After Day 2 · ~9:00 PM Dubai</div>
                 </div>
                 <div style={{ "fontSize": "10px", "color": "var(--pmuted)", "textAlign": "right", "letterSpacing": "0.1em" }}>
-                  TUE 15 APRIL<br />6:00 PM London*<br />1:00 PM NY*
+                  Wed 15 APRIL<br />6:00 PM London*<br />1:00 PM NY*
                 </div>
               </div>
               <div className="session-card-body">

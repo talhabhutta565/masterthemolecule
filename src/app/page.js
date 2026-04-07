@@ -114,14 +114,14 @@ export default function Home() {
             <div className="hero-dates">
               <div className="hero-date-card d1">
                 <div className="hero-date-label">Day 1</div>
-                <div className="hero-date-day">Mon 14 April 2025</div>
+                <div className="hero-date-day">Tue 14 April 2026</div>
                 <div className="hero-date-time">
                   6:00 PM Dubai &nbsp;&middot;&nbsp; 3:00 PM UK &nbsp;&middot;&nbsp; 4:00 PM Africa (SAST) &nbsp;&middot;&nbsp; 12:00 AM AUS (AEST)
                 </div>
               </div>
               <div className="hero-date-card d2">
                 <div className="hero-date-label">Day 2</div>
-                <div className="hero-date-day">Tue 15 April 2025</div>
+                <div className="hero-date-day">Wed 15 April 2026</div>
                 <div className="hero-date-time">
                   6:00 PM Dubai &nbsp;&middot;&nbsp; 3:00 PM UK &nbsp;&middot;&nbsp; 4:00 PM Africa (SAST) &nbsp;&middot;&nbsp; 12:00 AM AUS (AEST)
                 </div>
@@ -426,14 +426,14 @@ export default function Home() {
               <div className="register-details">
                 <div className="register-detail">
                   <div className="register-detail-dot"></div>
-                  Monday 14 April 2025 &middot; 6:00 PM Dubai &middot; 3:00 PM UK &middot; 4:00 PM Africa (SAST) &middot; 12:00 AM AUS (AEST)
+                  Tuesday 14 April 2026 &middot; 6:00 PM Dubai &middot; 3:00 PM UK &middot; 4:00 PM Africa (SAST) &middot; 12:00 AM AUS (AEST)
                 </div>
                 <div className="register-detail">
                   <div
                     className="register-detail-dot"
                     style={{ background: "#1A7A8A" }}
                   ></div>
-                  Tuesday 15 April 2025 &middot; 6:00 PM Dubai &middot; 3:00 PM UK &middot; 4:00 PM Africa (SAST) &middot; 12:00 AM AUS (AEST)
+                  Wednesday 15 April 2026 &middot; 6:00 PM Dubai &middot; 3:00 PM UK &middot; 4:00 PM Africa (SAST) &middot; 12:00 AM AUS (AEST)
                 </div>
                 <div className="register-detail">
                   <div
@@ -479,7 +479,7 @@ export default function Home() {
           </div>
           <div>
             <div className="footer-col-title">Event Details</div>
-            <div className="footer-detail">14 &amp; 15 April 2025</div>
+            <div className="footer-detail">14 &amp; 15 April 2026</div>
             <div className="footer-detail">6:00 PM Dubai &middot; 3:00 PM UK &middot; 4:00 PM Africa (SAST) &middot; 12:00 AM AUS (AEST)</div>
             <div className="footer-detail">Live on Zoom</div>
             <div
