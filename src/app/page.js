@@ -38,12 +38,12 @@ const speakersData = [
     instagram: "https://www.instagram.com/dr.sabinehazan/"
   },
   {
-    name: "Lucas Aoun",
+    name: "LDr. Arpit Bansal",
     day: "",
-    role: "Supplement Expert",
-    topic: "Supplements, Stacks & Synergy",
+    role: "Medicine 3.0",
+    topic: "Longevity Science expert",
     color: "#8B5CF6",
-    image: "/lucas.jpeg",
+    image: "/arpit.JPG.jpeg",
     instagram: "https://www.instagram.com/ergogenic_health/"
   },
   {
