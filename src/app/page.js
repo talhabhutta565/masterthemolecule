@@ -38,7 +38,7 @@ const speakersData = [
     instagram: "https://www.instagram.com/dr.sabinehazan/"
   },
   {
-    name: "LDr. Arpit Bansal",
+    name: "Dr. Arpit Bansal",
     day: "",
     role: "Medicine 3.0",
     topic: "Longevity Science expert",
