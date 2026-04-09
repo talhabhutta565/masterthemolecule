@@ -122,7 +122,7 @@ export default function ProtocolRoom() {
                 </li>
                 <li>
                   <span className="check">✓</span>
-                  Maximum 100 seats intimate and direct
+                  Maximum 50 seats intimate and direct
                 </li>
               </ul>
 
@@ -327,7 +327,7 @@ export default function ProtocolRoom() {
 
             <div className="faq-item">
               <div className={`faq-q ${openFaq === 0 ? 'open' : ''}`} onClick={() => toggleFaq(5)}>Is there a maximum number of seats?</div>
-              <div className={`faq-a ${openFaq === 0 ? 'open' : ''}`}>Yes. The Protocol Room is strictly capped at 100 seats. This is not a marketing technique it is a deliberate choice to keep the room small, intimate and genuinely useful. When 100 seats are sold, the offer closes.</div>
+              <div className={`faq-a ${openFaq === 0 ? 'open' : ''}`}>Yes. The Protocol Room is strictly capped at 50 seats. This is not a marketing technique it is a deliberate choice to keep the room small, intimate and genuinely useful. When 50 seats are sold, the offer closes.</div>
             </div>
 
             <div className="faq-item">

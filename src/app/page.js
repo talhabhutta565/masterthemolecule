@@ -44,7 +44,7 @@ const speakersData = [
     topic: "Longevity Science expert",
     color: "#8B5CF6",
     image: "/arpit.JPG.jpeg",
-    instagram: "https://www.instagram.com/ergogenic_health/"
+    instagram: "https://www.instagram.com/drarpitbansal?igsh=am5mN3A4eGV5cHFj"
   },
   {
     name: "Nathalie Niddam",
